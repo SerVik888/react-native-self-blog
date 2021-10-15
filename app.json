@@ -1,14 +1,14 @@
 {
   "expo": {
-    "name": "New-rn-posts",
+    "name": "Self Blog",
     "slug": "New-rn-posts",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/rn-icon.png",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/rn-splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#242832"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -17,16 +17,21 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.serVik.self-blog",
+      "buildNumber": "1.0.0"
     },
     "android": {
+      "package": "com.serVik.self_blog",
+      "versionCode": 1,
+      "permissions": ["CAMERA", "WRITE_EXTERNAL_STORAGE"],
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/rn-icon.png",
         "backgroundColor": "#FFFFFF"
       }
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/rn-icon.png"
     }
   }
 }
