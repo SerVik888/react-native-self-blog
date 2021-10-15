@@ -76,8 +76,7 @@ const styles = StyleSheet.create({
     fontFamily: 'open-regular'
   },
   textarea: {
-    paddingVertical: 10,
-    // marginVertical: 10 
+    paddingVertical: 10
   },
   img: {
     width: '100%',

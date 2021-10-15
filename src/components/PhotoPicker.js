@@ -1,8 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import { Alert, Button, Image, StyleSheet, View } from 'react-native'
 import * as ImagePicker from 'expo-image-picker'
-import { Camera } from 'expo-camera';
-// import * as Permissions from 'expo-permissions'
+import { Camera } from 'expo-camera'
 
 async function askForPermissions() {
 
